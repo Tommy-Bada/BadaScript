@@ -1,0 +1,44 @@
+.about-section {
+  padding: 20vh 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #081120;
+}
+.profile-picture {
+  width: 30rem;
+  height: 35rem;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.profile-picture > img {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  object-fit: cover;
+  object-position: 0 30%;
+}
+h1 {
+  font-size: 3.6rem;
+  font-family: "agrandirgrand_heavy";
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 2.4rem;
+  font-family: "agrandirgrand_heavy";
+  color: #d3f500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  line-height: 3rem;
+}
