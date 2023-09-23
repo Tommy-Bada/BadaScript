@@ -24,10 +24,10 @@ function Portfolio() {
   ));
 
   return (
-    <div className="portfolio-section">
-      <h1>Projects</h1>
+    <main className="portfolio-section">
+      <h1>Some of my Projects!</h1>
       <div>{projects}</div>
-    </div>
+    </main>
   );
 }
 

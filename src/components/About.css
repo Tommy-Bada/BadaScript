@@ -20,7 +20,7 @@
   object-fit: cover;
   object-position: 0 30%;
 }
-h1 {
+.about-section > h1 {
   font-size: 3.6rem;
   font-family: "agrandirgrand_heavy";
   color: white;
