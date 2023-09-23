@@ -1,0 +1,29 @@
+.project-section {
+  width: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.project-section > div {
+  width: 100%;
+}
+.project-section > div > img {
+  width: 100%;
+}
+.project-section > h2 {
+  font-size: 1.6rem;
+  color: white;
+  text-align: left;
+}
+.project-section > p {
+  text-align: left;
+  padding: 0;
+  font-size: 1.4rem;
+  margin-top: 3rem;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  color: #d3f500;
+  font-size: 1.4rem;
+}
