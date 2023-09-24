@@ -8,7 +8,7 @@ function Blog() {
       image: fyi,
       title: "First Year In",
       description:
-        "An article about my first year in the tech industry, and how I got here. You might find it inspiring, but it is mostly for documentation purpose",
+        "An article about my first year in the tech industry, and how I got here. You might find it inspiring, but it is mostly for documentation purpose.",
       url: "https://medium.com/@tomiwabada/first-year-in-9e1b8b9cb84",
       stacks: "Medium",
     },
