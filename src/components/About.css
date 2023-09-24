@@ -46,6 +46,7 @@ p {
 @media (max-width: 768px) {
   .about-section > h1 {
     font-size: 3rem;
+    line-height: 4rem;
   }
   h2 {
     font-size: 2rem;
