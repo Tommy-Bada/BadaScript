@@ -13,29 +13,35 @@ function Contact() {
           <a href="mailto:tomiwabd@gmail.com">tomiwabd@gmail.com</a>
         </p>
         <p className="phone">
-          <a href="phone:09094588112">09094588112</a>
+          <a href="tel:09094588112">09094588112</a>
         </p>
         <div id="socials">
           <div className="social-icon">
-            <FontAwesomeIcon
-              icon={faGithub}
-              size="2xl"
-              style={{ color: "#d3f500" }}
-            />
+            <a href="https://github.com/Tommy-Bada">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="2xl"
+                style={{ color: "#d3f500" }}
+              />
+            </a>
           </div>
           <div className="social-icon">
-            <FontAwesomeIcon
-              icon={faTwitter}
-              size="2xl"
-              style={{ color: "#d3f500" }}
-            />
+            <a href="https://twitter.com/Badman_Bada">
+              <FontAwesomeIcon
+                icon={faTwitter}
+                size="2xl"
+                style={{ color: "#d3f500" }}
+              />
+            </a>
           </div>
           <div className="social-icon">
-            <FontAwesomeIcon
-              icon={faLinkedinIn}
-              size="2xl"
-              style={{ color: "#d3f500" }}
-            />
+            <a href="https://www.linkedin.com/in/tomiwa-bada-572018173/">
+              <FontAwesomeIcon
+                icon={faLinkedinIn}
+                size="2xl"
+                style={{ color: "#d3f500" }}
+              />
+            </a>
           </div>
         </div>
       </div>
