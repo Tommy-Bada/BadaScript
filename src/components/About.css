@@ -4,7 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #081120;
+  /* background: #081120; */
+  background: #0d1728;
 }
 .profile-picture {
   width: 30rem;

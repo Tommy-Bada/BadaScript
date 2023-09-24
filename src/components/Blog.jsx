@@ -24,7 +24,7 @@ function Blog() {
   ));
 
   return (
-    <main className="portfolio-section" id="blog">
+    <main className="blog-section" id="blog">
       <h1>I write seldomly!</h1>
       <div>{articles}</div>
     </main>
