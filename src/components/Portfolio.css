@@ -7,7 +7,7 @@
   gap: 5rem;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 h1 {
   text-align: left;
@@ -17,13 +17,15 @@ h1 {
   color: #d3f500;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .portfolio-section > div {
-    width: 90vw;
+    display: flex;
+    width: 100vw;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     flex-wrap: nowrap;
+    gap: 2rem;
   }
   .portfolio-section > div::-webkit-scrollbar {
     display: none;
