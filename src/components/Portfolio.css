@@ -26,6 +26,7 @@ h1 {
     scroll-snap-type: x mandatory;
     flex-wrap: nowrap;
     gap: 2rem;
+    margin-right: 2rem;
   }
   .portfolio-section > div::-webkit-scrollbar {
     display: none;
