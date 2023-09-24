@@ -37,6 +37,12 @@ header {
   font-size: 1.6rem;
   transition: all 0.5s ease;
 }
+.linker {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: inline;
+}
 #nav-list > ul > li:hover {
   font-size: 2rem;
   cursor: pointer;
@@ -69,6 +75,9 @@ header {
   #mobile-menu > ul > li {
     font-size: 3rem;
     margin-bottom: 2rem;
+  }
+  .mobile-linker {
+    font-size: 3rem;
   }
   header {
     justify-content: space-between;

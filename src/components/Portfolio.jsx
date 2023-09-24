@@ -85,7 +85,7 @@ function Portfolio() {
   ));
 
   return (
-    <main className="portfolio-section">
+    <main className="portfolio-section" id="projects">
       <h1>Some of my Projects!</h1>
       <div>{projects}</div>
     </main>

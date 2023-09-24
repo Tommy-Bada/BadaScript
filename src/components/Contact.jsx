@@ -6,7 +6,7 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <h1>Wanna Reach Me?</h1>
       <div>
         <p className="mail">
