@@ -70,6 +70,8 @@ function Portfolio() {
       title: "Sanwo Landing Page",
       description:
         "A landing page for a fintech in Ibadan that helps with escrow payments",
+      url: "https://sanwo-homepage.netlify.app",
+      stacks: "React",
     },
   ].map((project) => (
     <Project
