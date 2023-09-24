@@ -24,7 +24,6 @@ h1 {
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     flex-wrap: nowrap;
-    margin-right: 2rem;
   }
   .portfolio-section > div::-webkit-scrollbar {
     display: none;
