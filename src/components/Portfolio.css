@@ -2,10 +2,30 @@
   background: #081120;
   padding: 3rem 2rem;
 }
+.portfolio-section > div {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 h1 {
   text-align: left;
   font-family: "agrandirgrand_heavy";
   font-size: 3.6rem;
   margin-bottom: 2rem;
   color: #d3f500;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-section > div {
+    width: 90vw;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    flex-wrap: nowrap;
+  }
+  .portfolio-section > div::-webkit-scrollbar {
+    display: none;
+  }
 }
